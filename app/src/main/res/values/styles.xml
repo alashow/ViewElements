@@ -5,14 +5,60 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="Button">
+        <item name="android:background">@drawable/button_background_default</item>
+        <item name="android:padding">@dimen/button_normal</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="Button">
+        <item name="android:background">@drawable/button_background_primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonSuccess" parent="Button">
+        <item name="android:background">@drawable/button_background_success</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonDanger" parent="Button">
+        <item name="android:background">@drawable/button_background_danger</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonWarning" parent="Button">
+        <item name="android:background">@drawable/button_background_warning</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonRounded" parent="Button">
+        <item name="android:background">@drawable/button_rounded_background_default</item>
+    </style>
+
+    <style name="ButtonPrimaryRounded" parent="ButtonPrimary">
+        <item name="android:background">@drawable/button_rounded_background_primary</item>
+    </style>
+
+    <style name="ButtonSuccessRounded" parent="ButtonSuccess">
+        <item name="android:background">@drawable/button_rounded_background_success</item>
+    </style>
+
+    <style name="ButtonDangerRounded" parent="ButtonDanger">
+        <item name="android:background">@drawable/button_rounded_background_danger</item>
+    </style>
+
+    <style name="ButtonWarningRounded" parent="ButtonWarning">
+        <item name="android:background">@drawable/button_rounded_background_warning</item>
+    </style>
+
     <style name="Input">
-        <item name="android:background">@drawable/input_background</item>
+        <item name="android:background">@drawable/input_background_default</item>
         <item name="android:padding">@dimen/input_normal</item>
         <item name="android:layout_margin">5dp</item>
     </style>
 
     <style name="InputRounded">
-        <item name="android:background">@drawable/input_background_rounded</item>
+        <item name="android:background">@drawable/input_rounded_background</item>
         <item name="android:padding">@dimen/input_normal</item>
         <item name="android:layout_margin">5dp</item>
     </style>
@@ -54,29 +100,29 @@
 
 
     <style name="InputRoundedDanger" parent="InputRounded">
-        <item name="android:background">@drawable/input_background_rounded_danger</item>
+        <item name="android:background">@drawable/input_rounded_background_danger</item>
     </style>
 
     <style name="InputRoundedDangerLarge" parent="InputRounded">
-        <item name="android:background">@drawable/input_background_rounded_danger</item>
+        <item name="android:background">@drawable/input_rounded_background_danger</item>
         <item name="android:padding">@dimen/input_large</item>
     </style>
 
     <style name="InputRoundedSuccess" parent="InputRounded">
-        <item name="android:background">@drawable/input_background_rounded_success</item>
+        <item name="android:background">@drawable/input_rounded_background_success</item>
     </style>
 
     <style name="InputRoundedSuccessLarge" parent="InputRounded">
-        <item name="android:background">@drawable/input_background_rounded_success</item>
+        <item name="android:background">@drawable/input_rounded_background_success</item>
         <item name="android:padding">@dimen/input_large</item>
     </style>
 
     <style name="InputRoundedWarning" parent="InputRounded">
-        <item name="android:background">@drawable/input_background_rounded_warning</item>
+        <item name="android:background">@drawable/input_rounded_background_warning</item>
     </style>
 
     <style name="InputRoundedWarningLarge" parent="InputRounded">
-        <item name="android:background">@drawable/input_background_rounded_warning</item>
+        <item name="android:background">@drawable/input_rounded_background_warning</item>
         <item name="android:padding">@dimen/input_large</item>
     </style>
 

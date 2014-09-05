@@ -17,6 +17,67 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/Button" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonPrimary" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonSuccess" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonDanger" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonWarning" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonRounded" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonPrimaryRounded" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonSuccessRounded" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonDangerRounded" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonWarningRounded" />
+
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -31,22 +92,22 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/InputDanger" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/InputDangerLarge" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 style="@style/InputSuccess" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="@style/InputSuccessLarge" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/InputDanger" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/InputDangerLarge" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -71,22 +132,22 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/InputRoundedDanger" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/InputRoundedDangerLarge" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 style="@style/InputRoundedSuccess" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="@style/InputRoundedSuccessLarge" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/InputRoundedDanger" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/InputRoundedDangerLarge" />
 
             <EditText
                 android:layout_width="match_parent"
