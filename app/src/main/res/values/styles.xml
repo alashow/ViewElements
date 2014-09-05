@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Input">
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:padding">@dimen/input_normal</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="InputRounded">
+        <item name="android:background">@drawable/input_background_rounded</item>
+        <item name="android:padding">@dimen/input_normal</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="InputLarge" parent="Input">
+        <item name="android:padding">@dimen/input_large</item>
+    </style>
+
+    <style name="InputRoundedLarge" parent="InputRounded">
+        <item name="android:padding">@dimen/input_large</item>
+    </style>
+
+    <style name="InputDanger" parent="Input">
+        <item name="android:background">@drawable/input_background_danger</item>
+    </style>
+
+    <style name="InputDangerLarge" parent="Input">
+        <item name="android:background">@drawable/input_background_danger</item>
+        <item name="android:padding">@dimen/input_large</item>
+    </style>
+
+    <style name="InputSuccess" parent="Input">
+        <item name="android:background">@drawable/input_background_success</item>
+    </style>
+
+    <style name="InputSuccessLarge" parent="Input">
+        <item name="android:background">@drawable/input_background_success</item>
+        <item name="android:padding">@dimen/input_large</item>
+    </style>
+
+    <style name="InputWarning" parent="Input">
+        <item name="android:background">@drawable/input_background_warning</item>
+    </style>
+
+    <style name="InputWarningLarge" parent="Input">
+        <item name="android:background">@drawable/input_background_warning</item>
+        <item name="android:padding">@dimen/input_large</item>
+    </style>
+
+
+    <style name="InputRoundedDanger" parent="InputRounded">
+        <item name="android:background">@drawable/input_background_rounded_danger</item>
+    </style>
+
+    <style name="InputRoundedDangerLarge" parent="InputRounded">
+        <item name="android:background">@drawable/input_background_rounded_danger</item>
+        <item name="android:padding">@dimen/input_large</item>
+    </style>
+
+    <style name="InputRoundedSuccess" parent="InputRounded">
+        <item name="android:background">@drawable/input_background_rounded_success</item>
+    </style>
+
+    <style name="InputRoundedSuccessLarge" parent="InputRounded">
+        <item name="android:background">@drawable/input_background_rounded_success</item>
+        <item name="android:padding">@dimen/input_large</item>
+    </style>
+
+    <style name="InputRoundedWarning" parent="InputRounded">
+        <item name="android:background">@drawable/input_background_rounded_warning</item>
+    </style>
+
+    <style name="InputRoundedWarningLarge" parent="InputRounded">
+        <item name="android:background">@drawable/input_background_rounded_warning</item>
+        <item name="android:padding">@dimen/input_large</item>
+    </style>
+
+</resources>
