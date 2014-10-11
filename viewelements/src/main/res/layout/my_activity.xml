@@ -51,6 +51,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/app_name"
+                style="@style/ButtonAsphalt" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonSeaGreen" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
                 style="@style/ButtonRounded" />
 
             <Button
@@ -77,6 +89,19 @@
                 android:text="@string/app_name"
                 style="@style/ButtonWarningRounded" />
 
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonAsphaltRounded" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/ButtonSeaGreenRounded" />
 
             <EditText
                 android:layout_width="match_parent"
