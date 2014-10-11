@@ -15,28 +15,16 @@
  *    limitations under the License.
  */
 
-apply plugin: 'com.android.application'
+package tm.veriloft.viewelements;
 
-android {
-  compileSdkVersion 20
-  buildToolsVersion "20.0.0"
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 
-  defaultConfig {
-    applicationId "tm.veriloft.viewelements"
-    minSdkVersion 11
-    targetSdkVersion 20
-    versionCode 1
-    versionName "1.0"
-  }
-  buildTypes {
-    release {
-      runProguard false
-      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+public class Elements extends ActionBarActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.my_activity);
     }
-  }
-}
-
-dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile 'com.android.support:appcompat-v7:20.0.0'
 }

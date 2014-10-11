@@ -15,28 +15,16 @@
  *    limitations under the License.
  */
 
-apply plugin: 'com.android.application'
+package veriloft.tm.viewelements;
 
-android {
-  compileSdkVersion 20
-  buildToolsVersion "20.0.0"
+import android.app.Application;
+import android.test.ApplicationTestCase;
 
-  defaultConfig {
-    applicationId "tm.veriloft.viewelements"
-    minSdkVersion 11
-    targetSdkVersion 20
-    versionCode 1
-    versionName "1.0"
-  }
-  buildTypes {
-    release {
-      runProguard false
-      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+/**
+ * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
+ */
+public class ApplicationTest extends ApplicationTestCase<Application> {
+    public ApplicationTest() {
+        super(Application.class);
     }
-  }
-}
-
-dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile 'com.android.support:appcompat-v7:20.0.0'
 }
