@@ -43,6 +43,13 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Disabled"
+                android:enabled="false"
+                style="@style/Button" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/app_name"
                 style="@style/ButtonPrimary" />
 
@@ -55,7 +62,6 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:enabled="false"
                 android:text="@string/app_name"
                 style="@style/ButtonDanger" />
 
@@ -124,6 +130,13 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                style="@style/Input" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disabled"
+                android:enabled="false"
                 style="@style/Input" />
 
 

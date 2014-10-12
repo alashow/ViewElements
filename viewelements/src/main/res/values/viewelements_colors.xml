@@ -43,4 +43,8 @@
     <color name="darker_yellow">#ffe08912</color>
     <color name="orange">#e67e22</color>
     <color name="dark_orange">#d35400</color>
+
+    <color name="disabled">#D1D5D8</color>
+    <color name="disabled_edge">#F7F9F9</color>
+    <color name="disabled_border">#E1E6E6</color>
 </resources>
